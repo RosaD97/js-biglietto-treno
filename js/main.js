@@ -1,12 +1,12 @@
 'use strict';
 
 // Valori da chiedere all'utente
-const chilometri = prompt('Inserisci quanti chilometri vuoi percorrere');
+const chilometri = parseInt(prompt('Inserisci quanti chilometri vuoi percorrere'));
 console.log(chilometri);
 
-const eta = prompt('Inserisci la tua età')
+const eta = parseInt(prompt('Inserisci la tua età'));
 console.log(eta);
-
+  
 // Prezzo del biglietto al km
 const prezzoAlKm = 0.21;
 // Scontistiche
